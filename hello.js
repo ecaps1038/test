@@ -1,4 +1,5 @@
 var http = require('http');
+var fs  = require('fs');
 
 http.createServer(function(req,res){
 // 规范化 url，去掉查询字符串、可选的反斜杠，并把它变成小写
