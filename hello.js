@@ -19,4 +19,4 @@ http.createServer(function(req,res){
 
 }).listen(3000);
 
-console.log('server started on localhost:3000');
+console.log('现在到访问为:http://127.0.0.1:3000');
